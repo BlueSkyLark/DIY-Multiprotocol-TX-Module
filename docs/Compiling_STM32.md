@@ -20,7 +20,7 @@ Flashing precompiled **binaries** is done very simple with the cable setup prese
 1. It is recommended to upgrade Java to the [latest version](https://www.java.com/en/download/)
 1. Download the [STM32 Core](https://github.com/rogerclarkmelbourne/Arduino_STM32/archive/master.zip) and copy the Arduino_STM32 folder to:
    - OSX: ```Arduino.app/Contents/Java/hardware```  (you can open Arduino.app by Ctl Clicking on Arduino.app and selecting "Show Package Contents") 
-   - Windows: ```C:\Program Files (x86)\Arduino\hardware``` 
+   - Windows: ```My Documents\Arduino\hardware```  (note. if the hardware folder doesn't exist you will need to create it)
    - Make sure the folder tree structure is like this .....\hardware\Arduino_STM32\.....and **NOT** ...... \hardware\Arduino_STM32-master\Arduino_STM32-master\......So move the folders /rename accordingly.
 1. Download the zip file with the Multiprotocol module source code from [here](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module)
 1. Unzip and copy the source code folder ```Multiprotocol``` to a folder of your choosing
